@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Danie\\source\\repos\\NET_CORE_COMPLAINTS_APP\\ChapinesGT\\ChapinesGT.csproj": {}
+    "D:\\Programas Cursos\\Intecap\\Cuarto Modulo\\NET_CORE_COMPLAINTS_APP\\ChapinesGT\\ChapinesGT.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Danie\\source\\repos\\NET_CORE_COMPLAINTS_APP\\ChapinesGT\\ChapinesGT.csproj": {
+    "D:\\Programas Cursos\\Intecap\\Cuarto Modulo\\NET_CORE_COMPLAINTS_APP\\ChapinesGT\\ChapinesGT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Danie\\source\\repos\\NET_CORE_COMPLAINTS_APP\\ChapinesGT\\ChapinesGT.csproj",
+        "projectUniqueName": "D:\\Programas Cursos\\Intecap\\Cuarto Modulo\\NET_CORE_COMPLAINTS_APP\\ChapinesGT\\ChapinesGT.csproj",
         "projectName": "ChapinesGT",
-        "projectPath": "C:\\Users\\Danie\\source\\repos\\NET_CORE_COMPLAINTS_APP\\ChapinesGT\\ChapinesGT.csproj",
-        "packagesPath": "C:\\Users\\Danie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Danie\\source\\repos\\NET_CORE_COMPLAINTS_APP\\ChapinesGT\\obj\\",
+        "projectPath": "D:\\Programas Cursos\\Intecap\\Cuarto Modulo\\NET_CORE_COMPLAINTS_APP\\ChapinesGT\\ChapinesGT.csproj",
+        "packagesPath": "C:\\Users\\julio\\.nuget\\packages\\",
+        "outputPath": "D:\\Programas Cursos\\Intecap\\Cuarto Modulo\\NET_CORE_COMPLAINTS_APP\\ChapinesGT\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Danie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\julio\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
