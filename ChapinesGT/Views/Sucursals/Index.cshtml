@@ -47,16 +47,16 @@
                 @Html.DisplayFor(modelItem => item.Direccion)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Comercio.Id)
+                @Html.DisplayFor(modelItem => item.Comercio.Nombre)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Departamento.Id)
+                @Html.DisplayFor(modelItem => item.Departamento.Nombre)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Municipio.Id)
+                @Html.DisplayFor(modelItem => item.Municipio.Nombre)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Region.Id)
+                @Html.DisplayFor(modelItem => item.Region.Nombre)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |

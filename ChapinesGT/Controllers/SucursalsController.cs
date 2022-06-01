@@ -51,10 +51,10 @@ namespace ChapinesGT.Controllers
         // GET: Sucursals/Create
         public IActionResult Create()
         {
-            ViewData["Comercio_ID"] = new SelectList(_context.Comercio, "Id", "Id");
-            ViewData["Departamento_ID"] = new SelectList(_context.Departamento, "Id", "Id");
-            ViewData["Municipio_ID"] = new SelectList(_context.Municipio, "Id", "Id");
-            ViewData["Region_ID"] = new SelectList(_context.Region, "Id", "Id");
+            ViewData["Comercio_ID"] = new SelectList(_context.Comercio, "Id", "Nombre");
+            ViewData["Departamento_ID"] = new SelectList(_context.Departamento, "Id", "Nombre");
+            ViewData["Municipio_ID"] = new SelectList(_context.Municipio, "Id", "Nombre");
+            ViewData["Region_ID"] = new SelectList(_context.Region, "Id", "Nombre");
             return View();
         }
 
@@ -91,10 +91,10 @@ namespace ChapinesGT.Controllers
             {
                 return NotFound();
             }
-            ViewData["Comercio_ID"] = new SelectList(_context.Comercio, "Id", "Id", sucursal.Comercio_ID);
-            ViewData["Departamento_ID"] = new SelectList(_context.Departamento, "Id", "Id", sucursal.Departamento_ID);
-            ViewData["Municipio_ID"] = new SelectList(_context.Municipio, "Id", "Id", sucursal.Municipio_ID);
-            ViewData["Region_ID"] = new SelectList(_context.Region, "Id", "Id", sucursal.Region_ID);
+            ViewData["Comercio_ID"] = new SelectList(_context.Comercio, "Id", "Nombre", sucursal.Comercio_ID);
+            ViewData["Departamento_ID"] = new SelectList(_context.Departamento, "Id", "Nombre", sucursal.Departamento_ID);
+            ViewData["Municipio_ID"] = new SelectList(_context.Municipio, "Id", "Nombre", sucursal.Municipio_ID);
+            ViewData["Region_ID"] = new SelectList(_context.Region, "Id", "Nombre", sucursal.Region_ID);
             return View(sucursal);
         }
 

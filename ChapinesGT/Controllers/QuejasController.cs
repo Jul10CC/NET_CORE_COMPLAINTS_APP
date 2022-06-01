@@ -48,7 +48,7 @@ namespace ChapinesGT.Controllers
         // GET: Quejas/Create
         public IActionResult Create()
         {
-            ViewData["Sucursal_ID"] = new SelectList(_context.Sucursal, "Id", "Id");
+            ViewData["Sucursal_ID"] = new SelectList(_context.Sucursal, "Id", "Nombre");
             return View();
         }
 
@@ -82,7 +82,7 @@ namespace ChapinesGT.Controllers
             {
                 return NotFound();
             }
-            ViewData["Sucursal_ID"] = new SelectList(_context.Sucursal, "Id", "Id", queja.Sucursal_ID);
+            ViewData["Sucursal_ID"] = new SelectList(_context.Sucursal, "Id", "Nombre", queja.Sucursal_ID);
             return View(queja);
         }
 
