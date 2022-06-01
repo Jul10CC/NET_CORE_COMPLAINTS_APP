@@ -11,7 +11,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace ChapinesGT
+namespace M04_SLN_APP_04_NET_CORE_LOGIN
 {
     public class Startup
     {
@@ -27,7 +27,7 @@ namespace ChapinesGT
         {
             services.AddControllersWithViews();
             services.AddDbContext<DB_Contexto> (options =>
-                    options.UseSqlServer(Configuration.GetConnectionString("DB_Contexto"))); 
+                    options.UseSqlServer(Configuration.GetConnectionString("DB_Contexto")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

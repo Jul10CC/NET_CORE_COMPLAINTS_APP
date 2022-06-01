@@ -21,6 +21,5 @@ namespace ChapinesGT.Data
         public DbSet<Region> Region { get; set; }
         public DbSet<Sucursal> Sucursal { get; set; }
         public DbSet<Usuario> Usuario { get; set; }
-
     }
 }
