@@ -8,7 +8,6 @@ ChapinesGT/.vs/ChapinesGT/v16/.suo
 *.ide
 *.v1
 ChapinesGT/.vs/ChapinesGT/v17/.suo
-*.json
 *.dll
 *.exe
 *.pdb
@@ -21,7 +20,6 @@ ChapinesGT/bin/Debug/net6.0/runtimes/osx-arm64/native/libe_sqlite3.dylib
 *.sln
 *.props
 ChapinesGT/obj/ChapinesGT.csproj.nuget.g.targets
-*.cs
 *.cache
 *.CopyComplete
 *.txt
