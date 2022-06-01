@@ -33,3 +33,4 @@ ChapinesGT/obj/ChapinesGT.csproj.nuget.g.targets
 *.ico
 ChapinesGT/wwwroot/lib/bootstrap/LICENSE
 *.md
+ChapinesGT/Properties/launchSetttings.json
