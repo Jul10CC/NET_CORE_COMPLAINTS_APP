@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programas Cursos\\Intecap\\Cuarto Modulo\\NET_CORE_COMPLAINTS_APP\\ChapinesGT\\ChapinesGT.csproj": {}
+    "C:\\Users\\Danie\\source\\repos\\NET_CORE_COMPLAINTS_APP\\ChapinesGT\\ChapinesGT.csproj": {}
   },
   "projects": {
-    "D:\\Programas Cursos\\Intecap\\Cuarto Modulo\\NET_CORE_COMPLAINTS_APP\\ChapinesGT\\ChapinesGT.csproj": {
+    "C:\\Users\\Danie\\source\\repos\\NET_CORE_COMPLAINTS_APP\\ChapinesGT\\ChapinesGT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programas Cursos\\Intecap\\Cuarto Modulo\\NET_CORE_COMPLAINTS_APP\\ChapinesGT\\ChapinesGT.csproj",
+        "projectUniqueName": "C:\\Users\\Danie\\source\\repos\\NET_CORE_COMPLAINTS_APP\\ChapinesGT\\ChapinesGT.csproj",
         "projectName": "ChapinesGT",
-        "projectPath": "D:\\Programas Cursos\\Intecap\\Cuarto Modulo\\NET_CORE_COMPLAINTS_APP\\ChapinesGT\\ChapinesGT.csproj",
-        "packagesPath": "C:\\Users\\julio\\.nuget\\packages\\",
-        "outputPath": "D:\\Programas Cursos\\Intecap\\Cuarto Modulo\\NET_CORE_COMPLAINTS_APP\\ChapinesGT\\obj\\",
+        "projectPath": "C:\\Users\\Danie\\source\\repos\\NET_CORE_COMPLAINTS_APP\\ChapinesGT\\ChapinesGT.csproj",
+        "packagesPath": "C:\\Users\\Danie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Danie\\source\\repos\\NET_CORE_COMPLAINTS_APP\\ChapinesGT\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\julio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Danie\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -58,6 +57,13 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.5, )"
+<<<<<<< HEAD
+=======
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+>>>>>>> db4e4654957af8eca4534904e73843367e736eea
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
