@@ -3,16 +3,17 @@
 @{
     ViewData["Title"] = "Index";
 }
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <br>
 <br>
 <br>
 <br>
-<h1>Index</h1>
+<h1>Comercios</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create">Crear Nuevo</a>
 </p>
-<table class="table">
+<table class="w3-table w3-striped w3-bordered">
     <thead>
         <tr>
             <th>
@@ -40,9 +41,9 @@
                 @Html.DisplayFor(modelItem => item.Descripcion)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Detalles</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
             </td>
         </tr>
 }
