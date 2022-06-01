@@ -1,37 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programas Cursos\\Intecap\\Cuarto Modulo\\NET_CORE_COMPLAINTS_APP\\ChapinesGT\\ChapinesGT.csproj": {}
+    "C:\\Users\\Danie\\source\\repos\\NET_CORE_COMPLAINTS_APP\\ChapinesGT\\ChapinesGT.csproj": {}
   },
   "projects": {
-    "D:\\Programas Cursos\\Intecap\\Cuarto Modulo\\NET_CORE_COMPLAINTS_APP\\ChapinesGT\\ChapinesGT.csproj": {
+    "C:\\Users\\Danie\\source\\repos\\NET_CORE_COMPLAINTS_APP\\ChapinesGT\\ChapinesGT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programas Cursos\\Intecap\\Cuarto Modulo\\NET_CORE_COMPLAINTS_APP\\ChapinesGT\\ChapinesGT.csproj",
+        "projectUniqueName": "C:\\Users\\Danie\\source\\repos\\NET_CORE_COMPLAINTS_APP\\ChapinesGT\\ChapinesGT.csproj",
         "projectName": "ChapinesGT",
-        "projectPath": "D:\\Programas Cursos\\Intecap\\Cuarto Modulo\\NET_CORE_COMPLAINTS_APP\\ChapinesGT\\ChapinesGT.csproj",
-        "packagesPath": "C:\\Users\\julio\\.nuget\\packages\\",
-        "outputPath": "D:\\Programas Cursos\\Intecap\\Cuarto Modulo\\NET_CORE_COMPLAINTS_APP\\ChapinesGT\\obj\\",
+        "projectPath": "C:\\Users\\Danie\\source\\repos\\NET_CORE_COMPLAINTS_APP\\ChapinesGT\\ChapinesGT.csproj",
+        "packagesPath": "C:\\Users\\Danie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Danie\\source\\repos\\NET_CORE_COMPLAINTS_APP\\ChapinesGT\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\julio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Danie\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -42,32 +41,36 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.17, )"
+              "version": "[6.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.17, )"
+              "version": "[6.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[3.1.25, )"
+              "version": "[6.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.17, )"
+              "version": "[6.0.5, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[3.1.5, )"
+              "version": "[6.0.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.3.0, )"
             }
           },
           "imports": [

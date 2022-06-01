@@ -176,6 +176,7 @@ D:\Programas Cursos\Intecap\Cuarto Modulo\NET_CORE_COMPLAINTS_APP\ChapinesGT\obj
 D:\Programas Cursos\Intecap\Cuarto Modulo\NET_CORE_COMPLAINTS_APP\ChapinesGT\obj\Debug\netcoreapp3.1\ChapinesGT.dll
 D:\Programas Cursos\Intecap\Cuarto Modulo\NET_CORE_COMPLAINTS_APP\ChapinesGT\obj\Debug\netcoreapp3.1\ChapinesGT.pdb
 D:\Programas Cursos\Intecap\Cuarto Modulo\NET_CORE_COMPLAINTS_APP\ChapinesGT\obj\Debug\netcoreapp3.1\ChapinesGT.genruntimeconfig.cache
+C:\Users\Danie\source\repos\NET_CORE_COMPLAINTS_APP\ChapinesGT\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
 C:\Users\Danie\source\repos\NET_CORE_COMPLAINTS_APP\ChapinesGT\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\Danie\source\repos\NET_CORE_COMPLAINTS_APP\ChapinesGT\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\Danie\source\repos\NET_CORE_COMPLAINTS_APP\ChapinesGT\bin\Debug\netcoreapp3.1\ChapinesGT.exe
@@ -298,22 +299,16 @@ C:\Users\Danie\source\repos\NET_CORE_COMPLAINTS_APP\ChapinesGT\bin\Debug\netcore
 C:\Users\Danie\source\repos\NET_CORE_COMPLAINTS_APP\ChapinesGT\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Danie\source\repos\NET_CORE_COMPLAINTS_APP\ChapinesGT\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Danie\source\repos\NET_CORE_COMPLAINTS_APP\ChapinesGT\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Danie\source\repos\NET_CORE_COMPLAINTS_APP\ChapinesGT\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\Danie\source\repos\NET_CORE_COMPLAINTS_APP\ChapinesGT\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\Danie\source\repos\NET_CORE_COMPLAINTS_APP\ChapinesGT\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Danie\source\repos\NET_CORE_COMPLAINTS_APP\ChapinesGT\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\Danie\source\repos\NET_CORE_COMPLAINTS_APP\ChapinesGT\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Danie\source\repos\NET_CORE_COMPLAINTS_APP\ChapinesGT\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\Danie\source\repos\NET_CORE_COMPLAINTS_APP\ChapinesGT\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Danie\source\repos\NET_CORE_COMPLAINTS_APP\ChapinesGT\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\Danie\source\repos\NET_CORE_COMPLAINTS_APP\ChapinesGT\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Danie\source\repos\NET_CORE_COMPLAINTS_APP\ChapinesGT\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Danie\source\repos\NET_CORE_COMPLAINTS_APP\ChapinesGT\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Danie\source\repos\NET_CORE_COMPLAINTS_APP\ChapinesGT\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Danie\source\repos\NET_CORE_COMPLAINTS_APP\ChapinesGT\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Danie\source\repos\NET_CORE_COMPLAINTS_APP\ChapinesGT\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Danie\source\repos\NET_CORE_COMPLAINTS_APP\ChapinesGT\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
 C:\Users\Danie\source\repos\NET_CORE_COMPLAINTS_APP\ChapinesGT\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
 C:\Users\Danie\source\repos\NET_CORE_COMPLAINTS_APP\ChapinesGT\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
 C:\Users\Danie\source\repos\NET_CORE_COMPLAINTS_APP\ChapinesGT\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
 C:\Users\Danie\source\repos\NET_CORE_COMPLAINTS_APP\ChapinesGT\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
 C:\Users\Danie\source\repos\NET_CORE_COMPLAINTS_APP\ChapinesGT\bin\Debug\netcoreapp3.1\runtimes\linux-mips64\native\libe_sqlite3.so
-C:\Users\Danie\source\repos\NET_CORE_COMPLAINTS_APP\ChapinesGT\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
 C:\Users\Danie\source\repos\NET_CORE_COMPLAINTS_APP\ChapinesGT\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
 C:\Users\Danie\source\repos\NET_CORE_COMPLAINTS_APP\ChapinesGT\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
 C:\Users\Danie\source\repos\NET_CORE_COMPLAINTS_APP\ChapinesGT\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
@@ -321,7 +316,8 @@ C:\Users\Danie\source\repos\NET_CORE_COMPLAINTS_APP\ChapinesGT\bin\Debug\netcore
 C:\Users\Danie\source\repos\NET_CORE_COMPLAINTS_APP\ChapinesGT\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\Danie\source\repos\NET_CORE_COMPLAINTS_APP\ChapinesGT\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\Danie\source\repos\NET_CORE_COMPLAINTS_APP\ChapinesGT\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
-C:\Users\Danie\source\repos\NET_CORE_COMPLAINTS_APP\ChapinesGT\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Danie\source\repos\NET_CORE_COMPLAINTS_APP\ChapinesGT\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Danie\source\repos\NET_CORE_COMPLAINTS_APP\ChapinesGT\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\Danie\source\repos\NET_CORE_COMPLAINTS_APP\ChapinesGT\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Danie\source\repos\NET_CORE_COMPLAINTS_APP\ChapinesGT\obj\Debug\netcoreapp3.1\ChapinesGT.csproj.AssemblyReference.cache
 C:\Users\Danie\source\repos\NET_CORE_COMPLAINTS_APP\ChapinesGT\obj\Debug\netcoreapp3.1\ChapinesGT.GeneratedMSBuildEditorConfig.editorconfig
