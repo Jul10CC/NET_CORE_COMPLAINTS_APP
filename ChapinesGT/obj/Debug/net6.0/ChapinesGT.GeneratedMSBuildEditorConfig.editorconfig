@@ -8,157 +8,177 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ChapinesGT
 build_property.RootNamespace = ChapinesGT
-build_property.ProjectDir = C:\Users\Danie\source\repos\NET_CORE_COMPLAINTS_APP\ChapinesGT\
+build_property.ProjectDir = D:\Programas Cursos\Intecap\Cuarto Modulo\NET_CORE_COMPLAINTS_APP\ChapinesGT\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Danie\source\repos\NET_CORE_COMPLAINTS_APP\ChapinesGT
+build_property.MSBuildProjectDirectory = D:\Programas Cursos\Intecap\Cuarto Modulo\NET_CORE_COMPLAINTS_APP\ChapinesGT
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Danie/source/repos/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Comercios/Create.cshtml]
+[D:/Programas Cursos/Intecap/Cuarto Modulo/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Comercios/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tZXJjaW9zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Danie/source/repos/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Comercios/Delete.cshtml]
+[D:/Programas Cursos/Intecap/Cuarto Modulo/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Comercios/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tZXJjaW9zXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Danie/source/repos/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Comercios/Details.cshtml]
+[D:/Programas Cursos/Intecap/Cuarto Modulo/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Comercios/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tZXJjaW9zXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Danie/source/repos/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Comercios/Edit.cshtml]
+[D:/Programas Cursos/Intecap/Cuarto Modulo/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Comercios/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tZXJjaW9zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Danie/source/repos/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Comercios/Index.cshtml]
+[D:/Programas Cursos/Intecap/Cuarto Modulo/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Comercios/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tZXJjaW9zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Danie/source/repos/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Departamentoes/Create.cshtml]
+[D:/Programas Cursos/Intecap/Cuarto Modulo/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Departamentoes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0YW1lbnRvZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Danie/source/repos/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Departamentoes/Delete.cshtml]
+[D:/Programas Cursos/Intecap/Cuarto Modulo/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Departamentoes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0YW1lbnRvZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Danie/source/repos/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Departamentoes/Details.cshtml]
+[D:/Programas Cursos/Intecap/Cuarto Modulo/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Departamentoes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0YW1lbnRvZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Danie/source/repos/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Departamentoes/Edit.cshtml]
+[D:/Programas Cursos/Intecap/Cuarto Modulo/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Departamentoes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0YW1lbnRvZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Danie/source/repos/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Departamentoes/Index.cshtml]
+[D:/Programas Cursos/Intecap/Cuarto Modulo/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Departamentoes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0YW1lbnRvZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Danie/source/repos/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Home/Index.cshtml]
+[D:/Programas Cursos/Intecap/Cuarto Modulo/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Danie/source/repos/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Home/Privacy.cshtml]
+[D:/Programas Cursos/Intecap/Cuarto Modulo/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Danie/source/repos/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Quejas/Create.cshtml]
+[D:/Programas Cursos/Intecap/Cuarto Modulo/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Municipios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVuaWNpcGlvc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programas Cursos/Intecap/Cuarto Modulo/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Municipios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVuaWNpcGlvc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programas Cursos/Intecap/Cuarto Modulo/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Municipios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVuaWNpcGlvc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programas Cursos/Intecap/Cuarto Modulo/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Municipios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVuaWNpcGlvc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programas Cursos/Intecap/Cuarto Modulo/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Municipios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVuaWNpcGlvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programas Cursos/Intecap/Cuarto Modulo/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Quejas/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlamFzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Danie/source/repos/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Quejas/Delete.cshtml]
+[D:/Programas Cursos/Intecap/Cuarto Modulo/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Quejas/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlamFzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Danie/source/repos/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Quejas/Details.cshtml]
+[D:/Programas Cursos/Intecap/Cuarto Modulo/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Quejas/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlamFzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Danie/source/repos/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Quejas/Edit.cshtml]
+[D:/Programas Cursos/Intecap/Cuarto Modulo/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Quejas/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlamFzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Danie/source/repos/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Quejas/Index.cshtml]
+[D:/Programas Cursos/Intecap/Cuarto Modulo/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Quejas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlamFzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Danie/source/repos/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Regions/Create.cshtml]
+[D:/Programas Cursos/Intecap/Cuarto Modulo/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Regions/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaW9uc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Danie/source/repos/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Regions/Delete.cshtml]
+[D:/Programas Cursos/Intecap/Cuarto Modulo/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Regions/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaW9uc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Danie/source/repos/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Regions/Details.cshtml]
+[D:/Programas Cursos/Intecap/Cuarto Modulo/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Regions/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaW9uc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Danie/source/repos/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Regions/Edit.cshtml]
+[D:/Programas Cursos/Intecap/Cuarto Modulo/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Regions/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaW9uc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Danie/source/repos/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Regions/Index.cshtml]
+[D:/Programas Cursos/Intecap/Cuarto Modulo/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Regions/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaW9uc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Danie/source/repos/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Shared/Error.cshtml]
+[D:/Programas Cursos/Intecap/Cuarto Modulo/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Danie/source/repos/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Shared/_Layout.cshtml]
+[D:/Programas Cursos/Intecap/Cuarto Modulo/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Danie/source/repos/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Programas Cursos/Intecap/Cuarto Modulo/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Danie/source/repos/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Sucursals/Create.cshtml]
+[D:/Programas Cursos/Intecap/Cuarto Modulo/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Sucursals/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VjdXJzYWxzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Danie/source/repos/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Sucursals/Delete.cshtml]
+[D:/Programas Cursos/Intecap/Cuarto Modulo/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Sucursals/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VjdXJzYWxzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Danie/source/repos/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Sucursals/Details.cshtml]
+[D:/Programas Cursos/Intecap/Cuarto Modulo/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Sucursals/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VjdXJzYWxzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Danie/source/repos/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Sucursals/Edit.cshtml]
+[D:/Programas Cursos/Intecap/Cuarto Modulo/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Sucursals/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VjdXJzYWxzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Danie/source/repos/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Sucursals/Index.cshtml]
+[D:/Programas Cursos/Intecap/Cuarto Modulo/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Sucursals/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VjdXJzYWxzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Danie/source/repos/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Usuarios/Create.cshtml]
+[D:/Programas Cursos/Intecap/Cuarto Modulo/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Usuarios/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Danie/source/repos/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Usuarios/Delete.cshtml]
+[D:/Programas Cursos/Intecap/Cuarto Modulo/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Usuarios/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Danie/source/repos/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Usuarios/Details.cshtml]
+[D:/Programas Cursos/Intecap/Cuarto Modulo/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Usuarios/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Danie/source/repos/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Usuarios/Edit.cshtml]
+[D:/Programas Cursos/Intecap/Cuarto Modulo/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Usuarios/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Danie/source/repos/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Usuarios/Index.cshtml]
+[D:/Programas Cursos/Intecap/Cuarto Modulo/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/Usuarios/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Danie/source/repos/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/_ViewImports.cshtml]
+[D:/Programas Cursos/Intecap/Cuarto Modulo/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Danie/source/repos/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/_ViewStart.cshtml]
+[D:/Programas Cursos/Intecap/Cuarto Modulo/NET_CORE_COMPLAINTS_APP/ChapinesGT/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
