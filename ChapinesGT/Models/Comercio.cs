@@ -4,7 +4,7 @@ namespace ChapinesGT.Models
 {
     public class Comercio
     {
-        public int Comercio_ID { get; set; }
+        public int Id { get; set; }
         public string Nombre { get; set; }
         public string NIT { get; set; }
         [Display(Name = "Descripción")]

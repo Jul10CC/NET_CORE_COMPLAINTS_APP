@@ -5,10 +5,10 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using M04_SLN_APP_04_NET_CORE_LOGIN.Data;
-using M04_SLN_APP_04_NET_CORE_LOGIN.Models;
+using ChapinesGT.Data;
+using ChapinesGT.Models;
 
-namespace M04_SLN_APP_04_NET_CORE_LOGIN.Controllers
+namespace ChapinesGT.Controllers
 {
     public class UsuariosController : Controller
     {

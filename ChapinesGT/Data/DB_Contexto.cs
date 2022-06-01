@@ -1,11 +1,11 @@
-﻿using M04_SLN_APP_04_NET_CORE_LOGIN.Models;
+﻿using ChapinesGT.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace M04_SLN_APP_04_NET_CORE_LOGIN.Data
+namespace ChapinesGT.Data
 {
     public class DB_Contexto : DbContext
     {
@@ -14,6 +14,13 @@ namespace M04_SLN_APP_04_NET_CORE_LOGIN.Data
 
         }
 
+        public DbSet<Comercio> Comercio { get; set; }
+        public DbSet<Departamento> Departamento { get; set; }
+        public DbSet<Municipio> Municipio { get; set; }
+        public DbSet<Queja> Queja { get; set; }
+        public DbSet<Region> Region { get; set; }
+        public DbSet<Sucursal> Sucursal { get; set; }
         public DbSet<Usuario> Usuario { get; set; }
+
     }
 }

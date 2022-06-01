@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace M04_SLN_APP_04_NET_CORE_LOGIN.Models
+namespace ChapinesGT.Models
 {
     public class Usuario
     {

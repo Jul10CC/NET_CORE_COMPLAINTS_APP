@@ -29,7 +29,7 @@ using M04_SLN_APP_04_NET_CORE_LOGIN.Models;
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c633b3defaa6906a82c02cd036e171fde4ae58dd", @"/Views/Usuarios/Edit.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c11eb265f031fae57cb80923a6533bbded5c7fcc", @"/Views/_ViewImports.cshtml")]
     #nullable restore
-    public class Views_Usuarios_Edit : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<M04_SLN_APP_04_NET_CORE_LOGIN.Models.Usuario>
+    public class Views_Usuarios_Edit : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<ChapinesGT.Models.Usuario>
     #nullable disable
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("class", new global::Microsoft.AspNetCore.Html.HtmlString("text-danger"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -650,7 +650,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper.For = ModelExpr
         #nullable disable
         #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<M04_SLN_APP_04_NET_CORE_LOGIN.Models.Usuario> Html { get; private set; } = default!;
+        public global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<ChapinesGT.Models.Usuario> Html { get; private set; } = default!;
         #nullable disable
     }
 }

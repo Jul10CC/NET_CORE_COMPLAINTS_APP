@@ -7,7 +7,7 @@ namespace ChapinesGT.Models
 {
     public class Queja
     {
-        public int Queja_ID { get; set; }
+        public int Id { get; set; }
         public string Motivo { get; set; }
         public DateTime Fecha { get; set; }
         [Display(Name = "Descripción")]

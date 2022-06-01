@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace M04_SLN_APP_04_NET_CORE_LOGIN.Migrations
+namespace ChapinesGT.Migrations
 {
     public partial class MigracionInicial : Migration
     {
