@@ -11,7 +11,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace M04_SLN_APP_04_NET_CORE_LOGIN
+namespace ChapinesGT
 {
     public class Startup
     {
@@ -54,7 +54,7 @@ namespace M04_SLN_APP_04_NET_CORE_LOGIN
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Home}/{action=Login}/{id?}");
             });
         }
     }

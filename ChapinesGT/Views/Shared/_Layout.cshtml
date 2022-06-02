@@ -19,29 +19,35 @@
     body {
         font-family: 'Titillium Web', sans-serif;
     }
+
     .navbar {
         background: white;
         box-shadow: 0 2px 44px 0 rgb(0,0,1.05);
         min-width: 200px;
     }
+
     .nav-link {
         color: black;
     }
+
         .nav-link:hover {
             color: black;
         }
+
     h2 {
         color: white;
         font-size: 150%;
         font-weight: bold;
         font-style: oblique;
     }
+
     h1 {
         color: #623A17;
         font-size: 200%;
         font-weight: bold;
         font-style: oblique;
     }
+
     .contenido-centrado {
         max-width: 1000px;
         margin: 0 auto 80px auto;
@@ -50,6 +56,7 @@
         font-weight: bold;
         font-size: 125%;
     }
+
     .contenido-centrado2 {
         max-width: 800px;
         margin: 0 auto 80px auto;
@@ -58,6 +65,7 @@
         font-weight: bold;
         font-size: 125%;
     }
+
     .btn {
         font-size: 15px;
         padding: 15px 26px;
@@ -65,34 +73,42 @@
         border-radius: 2px;
         display: inline-block;
     }
+
     .btn-bl {
         background-color: #E7E7E7;
         color: black;
         border: #23BE52 5px solid
     }
+
     .btn i {
         margin-left: 5px;
     }
+
     .beneficios-detalles {
         position: absolute;
         bottom: 25px;
         left: 25px;
         z-index: 9000;
     }
+
         .beneficios-detalles a h2, .beneficios-detalles a p {
             color: white;
         }
+
     a:hover {
         text-decoration: none;
     }
+
     .beneficios-detalles h2 {
         margin-bottom: 0px;
     }
+
     .beneficios-contenido img {
         -moz-transition: all 0.8s;
         -webkit-transition: all 0.8s;
         transition: all 0.8s;
     }
+
     .beneficios-contenido:hover img {
         -moz-transforms: scale(1.2);
         -webkit-transform: scale(1.2);
@@ -101,29 +117,26 @@
 </style>
 <body style="background-color: #FFE8CD">
     <header>
-                <nav class="navbar  fixed-top navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#"><img src="https://cdn.dribbble.com/users/1247975/screenshots/7362387/media/4d34da5bda0b75320c6d9c8fcbc29b35.png?compress=1&resize=400x300" alt="" width="50" height="50">  </a>
-                <h1>Chapines GT</h1>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="navbar-toggler-icon"></i>
-                </button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="https://localhost:44323/Home" id="inicio">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://localhost:44323/Quejas" id="beneficios">Quejas</a>
-                        </li>
-                        <li class="nav-item">
-                             <a class="nav-link" href="https://localhost:44323/Sucursals" id="beneficios">Sucursales</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " href="" id="registrar">Cerrar Sesion</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+        <nav class="navbar  fixed-top navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img src="https://cdn.dribbble.com/users/1247975/screenshots/7362387/media/4d34da5bda0b75320c6d9c8fcbc29b35.png?compress=1&resize=400x300" alt="" width="50" height="50">  </a>
+            <h1>Chapines GT</h1>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="navbar-toggler-icon"></i>
+            </button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/Home/Index" id="inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Quejas/Index" id="beneficios">Quejas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Sucursals/Index" id="beneficios">Sucursales</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
     <div class="container">
         <main role="main" class="pb-3">
@@ -143,7 +156,7 @@
 </body>
 </html>
 <script>
-    $(document).ready( function(){
+    $(document).ready(function () {
         $('#listaUsuarios').DataTable();
     });
 </script>

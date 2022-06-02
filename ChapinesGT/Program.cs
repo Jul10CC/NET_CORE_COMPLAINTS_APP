@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace M04_SLN_APP_04_NET_CORE_LOGIN
+namespace ChapinesGT
 {
     public class Program
     {

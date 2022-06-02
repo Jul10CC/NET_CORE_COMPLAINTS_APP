@@ -1,0 +1,107 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<!doctype html>
+<html lang="en">
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600i,700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!--Bootstrap CSS-->
+    <title>Bootstrap</title>
+</head>
+<style type="text/css">
+    #form {
+        width: 60%;
+        border: 1px solid #ccc;
+        margin: 40px;
+        padding: 120px;
+        background: #FFFAF9;
+        margin: 120px 0px 0px 250px;
+    }
+
+    label {
+        font-size: 17px;
+        display: block;
+        width: 100%;
+        font-weight: bold;
+        color: #6D2E01;
+    }
+
+    input {
+        margin-bottom: 20px;
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+    }
+
+        input:focus {
+            border: 1px solid #1668C4;
+        }
+
+        input[type="submit"] {
+            margin-bottom: 0;
+            background: #1668C4;
+            color: #C3E3FD;
+            border: none;
+        }
+
+            input[type="submit"]:hover {
+                background: #4A88F4;
+                cursor: pointer;
+            }
+
+    #titulo {
+        font-family: 'Lobster', cursive;
+        font-family: 'Zen Loop', cursive;
+        color: #6D2E01;
+        font-size: 40px;
+        text-align: center;
+    }
+</style>
+<body background="https://png.pngtree.com/thumb_back/fw800/background/20210306/pngtree-geometric-repeating-pattern-background-image_579745.jpg">
+    <div id="form">
+        <h1 id="titulo">Chapines GT</h1>
+        @using (Html.BeginForm("Login", "Home", FormMethod.Post))
+        {
+            //this  is for create form tag
+            @Html.AntiForgeryToken() // this is for prevent CSRF attack
+            @Html.ValidationSummary(true)
+            if (@ViewBag.Message != null)
+            {
+                <div style="border: 1px solid red">
+                    @ViewBag.Message
+                </div>
+            }
+    <form>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email</label>
+            <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Ingresa tu email">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Contraseña</label>
+            <input type="password" class="form-control" id="contrasenia" name="contrasenia" placeholder="Password">
+        </div>
+        <button type="submit" class="btn btn-primary">Ingresar</button>
+        <td>
+            <br></br>
+            <a class="btn btn-secondary" href="/Usuarios/Create" role="button">Crear Cuenta</a>
+            <br></br>
+            <a class="btn btn-primary" href="/Home/Index" role="button">Ingresar sin cuenta</a>
+        </td>
+    </form>
+        }
+    </div>
+</body>
+</html>
