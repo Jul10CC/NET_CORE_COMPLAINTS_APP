@@ -84,6 +84,12 @@
                     @ViewBag.Message
                 </div>
             }
+     if (@ViewBag.Message != null)
+    {
+        <div style="border: 1px solid red">
+            @ViewBag.Message
+        </div>
+    }
     <form>
         <div class="form-group">
             <label for="exampleInputEmail1">Email</label>

@@ -10,6 +10,7 @@ using ChapinesGT.Data;
 using System.Web;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 namespace ChapinesGT.Controllers
 {
@@ -18,10 +19,6 @@ namespace ChapinesGT.Controllers
         private readonly ILogger<HomeController> _logger;
         private readonly DB_Contexto _context;
 
-        /*public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }*/
         public HomeController(DB_Contexto context)
         {
             _context = context;
@@ -34,7 +31,7 @@ namespace ChapinesGT.Controllers
         }
 
         [HttpPost]
-        public IActionResult Login(string email, string contrasenia)
+        public async Task<IActionResult> Login(string email, string contrasenia)
         {
             if (!string.IsNullOrEmpty(email) && !string.IsNullOrEmpty(contrasenia))
             {
@@ -42,36 +39,37 @@ namespace ChapinesGT.Controllers
                 var user = _context.Usuario.FirstOrDefault(e => e.Email == email && e.Contrasenia == contrasenia);
                 if (user != null)
                 {
-                    //FormsAuthentication.SetAuthCookie(user.Email, true);
-                    var claims = new List<Claim>
-                    {
-                        new Claim(ClaimTypes.Name,"myName"),
-                        new Claim(ClaimTypes.Role,"myRole")
-                    };
-                    var claimIdentity = new ClaimsIdentity(claims, "id card");
-                    var claimPrinciple = new ClaimsPrincipal(claimIdentity);
-                    var authenticationProperty = new AuthenticationProperties
-                    {
-                        IsPersistent = true
-                    };
-                    HttpContext.SignInAsync(claimPrinciple, authenticationProperty);
+                    var claims = new List<Claim>();
+                    claims.Add(new Claim(ClaimTypes.SerialNumber, Convert.ToString(user.Id)));
+                    claims.Add(new Claim(ClaimTypes.Name, user.Email));
+
+                    // Create Identity
+                    var claimsIdentity = new ClaimsIdentity(claims,
+                        CookieAuthenticationDefaults.AuthenticationScheme);
+
+                    // Create Principal 
+                    var claimsPrincipal = new ClaimsPrincipal(claimsIdentity);
+
+                    // Sign In
+                    await HttpContext.SignInAsync(claimsPrincipal);
                     return RedirectToAction("Index", "Home");
                 }
                 else
                 {
-                    return View("No Encontramos tus datos");
+                    return RedirectToAction("Login", new { message = "No se encontraron los datos"});
                 }
             }
             else
             {
-                return View("LLena los campos para poder Iniciar sesion");
+                return RedirectToAction("Login", new { message = "Es necesario ingresar los datos" });
             }
         }
 
         public IActionResult Logout()
         {
-            //FormsAuthentication.SignOut();
-            return RedirectToAction("Index");
+            HttpContext.SignOutAsync(
+            CookieAuthenticationDefaults.AuthenticationScheme);
+            return RedirectToAction("Login");
         }
 
         public IActionResult Index()

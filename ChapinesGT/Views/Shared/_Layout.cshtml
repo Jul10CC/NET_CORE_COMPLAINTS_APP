@@ -131,9 +131,24 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/Quejas/Index" id="beneficios">Quejas</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/Sucursals/Index" id="beneficios">Sucursales</a>
-                    </li>
+
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Sucursals/Index" id="beneficios">Sucursales</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" 
+                            asp-area="" asp-controller="Home" asp-action="Logout">Logout</a>
+                        </li>
+                    }
+                    else
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" 
+                            asp-area="" asp-controller="Home" asp-action="Login">Login</a>
+                        </li>
+                    }
                 </ul>
             </div>
         </nav>

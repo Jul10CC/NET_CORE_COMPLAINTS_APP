@@ -32,11 +32,14 @@
                 Aquí puedes acceder a diferentes modulos de la pagina para realizar una queja.
             </p>
             <a href="/Quejas/Index" class="btn btn-bl">Quejas <i class="icon ion-md-save"></i></a>
-            <a href="/Comercios/Index" class="btn btn-bl">Comercios <i class="icon ion-md-person"></i></a>
-            <a href="/Sucursals/Index" class="btn btn-bl">Sucursales<i class="icon ion-md-home"></i></a>
-            <a href="/Departamentoes/Index" class="btn btn-bl">Departamentos<i class="icon ion-md-airplane"></i></a>
-            <a href="/Municipios/Index" class="btn btn-bl">Municipios<i class="icon ion-md-airplane"></i></a>
-            <a href="/Regions/Index" class="btn btn-bl">Regiones<i class="icon ion-md-airplane"></i></a>
+            @if (User.Identity.IsAuthenticated)
+            {
+                <a href="/Comercios/Index" class="btn btn-bl">Comercios <i class="icon ion-md-person"></i></a>
+                <a href="/Sucursals/Index" class="btn btn-bl">Sucursales<i class="icon ion-md-home"></i></a>
+                <a href="/Departamentoes/Index" class="btn btn-bl">Departamentos<i class="icon ion-md-airplane"></i></a>
+                <a href="/Municipios/Index" class="btn btn-bl">Municipios<i class="icon ion-md-airplane"></i></a>
+                <a href="/Regions/Index" class="btn btn-bl">Regiones<i class="icon ion-md-airplane"></i></a>
+            }
             <br>
         </div>
            </div>
