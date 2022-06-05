@@ -43,7 +43,7 @@
                 }
                 else
                 {
-                    <input asp-for="Usuario_ID" class="form-control" value="0"/>
+                    <input type="hidden" name="Usuario_ID" id="Usuario_ID" class="form-control" value="0">
                 }
             </div>
             <div class="form-group">
@@ -51,7 +51,7 @@
                 <select asp-for="Sucursal_ID" class ="form-control" asp-items="ViewBag.Sucursal_ID"></select>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Guardar" class="btn btn-primary" />
             </div>
         </form>
     </div>

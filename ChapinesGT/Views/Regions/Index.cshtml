@@ -11,7 +11,7 @@
 <h1>Regiones</h1>
 
 <p>
-    <a asp-action="Create">Crear Nuevo</a>
+      <a class="btn btn-secondary btn-sm" asp-action="Create">Crear Nuevo <i class="icon ion-md-add-circle"></i></a>
 </p>
 <table class="w3-table w3-striped w3-bordered">
     <thead>
@@ -29,9 +29,9 @@
                 @Html.DisplayFor(modelItem => item.Nombre)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Detalles</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
+                <a class="btn btn-warning btn-sm"asp-action="Edit" asp-route-id="@item.Id">Editar<i class="icon ion-md-brush"></i></a> 
+                <a class="btn btn-primary btn-sm"asp-action="Details" asp-route-id="@item.Id">Detalles<i class="icon ion-md-book"></i></a> 
+                <a class="btn btn-danger btn-sm" asp-action="Delete" asp-route-id="@item.Id">Eliminar<i class="icon ion-md-close-circle"></i></a>
             </td>
         </tr>
 }
